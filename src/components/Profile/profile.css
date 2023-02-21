@@ -1,5 +1,4 @@
 .App {
-  height: 100vh;
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -7,6 +6,9 @@
   flex-direction: column;
   font-size: 40px;
   color: #010101;
+}
+.profile {
+  margin-top: 20px;
 }
 img {
   width: 100%;
@@ -40,7 +42,7 @@ img {
   list-style: none;
   padding-bottom: 40px;
 }
-li {
+.stats-item {
   font-size: 30px;
   display: flex;
   justify-content: space-between;
