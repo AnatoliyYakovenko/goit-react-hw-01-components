@@ -1,12 +1,5 @@
 import PropTypes from 'prop-types';
 
-
-// username — ім'я користувача
-// tag — тег в соціальній мережі без @
-// location — місто і країна
-// avatar — посилання на зображення
-// stats — об'єкт з інформацією про активності
-
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
   return (
