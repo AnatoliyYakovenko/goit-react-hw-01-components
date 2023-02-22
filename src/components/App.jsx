@@ -12,7 +12,15 @@ import transactions from '../mokes/transactions.json';
 export const App = () => {
 
   return (
-    <div className="App">
+    <div className="App"
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        fontSize: 40,
+        color: '#010101'
+      }}>
     <Profile
         username={user.username}
         tag={user.tag}
