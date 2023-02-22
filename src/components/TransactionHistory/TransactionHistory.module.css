@@ -1,0 +1,25 @@
+.transactionHistory {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid rgb(207, 204, 204);
+}
+
+thead {
+  background-color: rgb(65, 65, 65);
+  color: #ffffff;
+  padding-top: 20px;
+}
+th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+tr {
+  text-align: center;
+  height: 45px;
+  padding: 20px;
+}
+
+tr:nth-child(2n) {
+  background-color: #f1f1f1;
+}
